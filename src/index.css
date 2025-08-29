@@ -39,6 +39,12 @@ body{
     .hover-links{
         @apply hover:text-red-500 transition duration-500 ease-in-out
     }
+    .line{
+        @apply text-gray-300 my-5
+    }
+    .line-verticle{
+        @apply border-l border-gray-300
+    }
 }
 
 
@@ -47,5 +53,10 @@ body{
 /* 🧩 Reusable Components */
 
 @layer components{
-
+   .btn{
+      @apply  bg-black p-1.5 rounded mt-2 text-white cursor-pointer
+   }
+   .btn:hover{
+    @apply bg-black/80  duration-500 ease-in-out
+   }
 }

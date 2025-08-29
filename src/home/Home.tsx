@@ -3,6 +3,7 @@ import Bottom from "./Bottom";
 import Tranding from "../sections/Tranding";
 import Entertainment from "../sections/Entertainment";
 import Sports from "../sections/Sports";
+import Election from "../sections/Election";
 
 
 
@@ -88,22 +89,14 @@ const Home = () => {
 
           </div>
 
-
-
           <Bottom />
-
-          {/* special */}
-
-          <div>
-
-          </div>
 
         </div>
 
 
 
 
-        <hr className="border-l border-gray-300 h-190 mt-5" />
+        <hr className="line-verticle h-190 mt-5" />
 
         <Aside />
 
@@ -114,6 +107,11 @@ const Home = () => {
          <Tranding />
          <Entertainment/>
          <Sports/>
+         <Election/>
+          <Election/>
+          <Sports/>
+         <Entertainment/>
+
 
 
      
