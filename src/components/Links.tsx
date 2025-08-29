@@ -10,5 +10,7 @@ export const navItems: NavItems = {
         { name: 'लाइफस्टाइल', href: '/lifestyle' },
         { name: 'खेल', href: '/sports' },
         { name: 'लाइव', href: '/live' },
+        {name:"इंटरव्यू", href:"/interview"},
+        {name:"शॉपिंग", href:"/shoping"}
     ]
 }

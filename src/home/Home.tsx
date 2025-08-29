@@ -1,6 +1,8 @@
 import Aside from "./Aside";
 import Bottom from "./Bottom";
 import Tranding from "../sections/Tranding";
+import Entertainment from "../sections/Entertainment";
+import Sports from "../sections/Sports";
 
 
 
@@ -110,6 +112,8 @@ const Home = () => {
 
 
          <Tranding />
+         <Entertainment/>
+         <Sports/>
 
 
      
