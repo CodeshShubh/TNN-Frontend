@@ -6,6 +6,7 @@
     --color-primary:#99A2CE;
     --color-secondary:#6CF8FC;
     --color-third:#541527;
+    --color-special:#F2F2F2;
 
 }
 
@@ -19,6 +20,27 @@ body{
 .font-dancing{
     font-family: 'Dancing Script', cursive;
 }
+
+.no-bottom-shadow {
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1); /* top only */
+}
+
+
+
+@layer utilities{
+    .border-trl {
+        @apply border-t border-r border-l border-gray-300
+    }
+
+    .border-lr{
+         @apply border-r border-l border-gray-300
+    }
+
+    .hover-links{
+        @apply hover:text-red-500 transition duration-500 ease-in-out
+    }
+}
+
 
 
 

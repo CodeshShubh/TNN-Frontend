@@ -1,83 +1,121 @@
-import { Link } from "react-router-dom"
+import Aside from "./Aside";
+import Bottom from "./Bottom";
+import Tranding from "../sections/Tranding";
+
 
 
 const Home = () => {
   return (
-    <main className="border h-screen w-[75%] mx-auto flex">
-      {/* left */}
-          <div className="flex">
-              <div className="w-[25%]">
-                  <h1>भारत</h1> 
-                  <h2>आज आम चुनाव हों तो NDA जीतेगा 324 सीटें मगर अपने दम पर बहुमत से पीछे रहेगी BJP: सर्वे</h2>
-                  <p>इंडिया टुडे ने सी-वोटर के साथ 'मूड ऑफ द नेशन' सर्वे किया है.
-                     देश के सभी राज्यों और लोकसभा क्षेत्रों में 1 जुलाई से 14 अगस्त 2025 
-                     के बीच ये सर्वे किया गया. इस सर्वे का मकसद था देश का मूड भांपना. सर्वे में...</p>
-                     <span>10 hours ago</span>
+    <>
+      <main className="border-trl w-[75%] mx-auto flex gap-5 no-bottom-shadow">
+        {/* left */}
+        <div>
+          <div className=" flex justify-center text-center gap-2 mt-5">
+            <div className=" flex flex-col gap-5 p-2  w-[30%] mt-3 h-fit">
+              <h1 className="font-semibold text-2xl">भारत</h1>
+              <h2 className="font-medium" >आज आम चुनाव हों तो NDA जीतेगा 324 सीटें मगर अपने दम पर बहुमत से पीछे रहेगी BJP: सर्वे</h2>
+              <p className="font-extralight text-xs">इंडिया टुडे ने सी-वोटर के साथ 'मूड ऑफ द नेशन' सर्वे किया है.
+                देश के सभी राज्यों और लोकसभा क्षेत्रों में 1 जुलाई से 14 अगस्त 2025
+                के बीच ये सर्वे किया गया. इस सर्वे का मकसद था देश का मूड भांपना. सर्वे में...</p>
+              <span>10 hours ago</span>
 
-              </div>
-              <img src="/india.png" />
+            </div>
+            <div className=" h-fit">
+              <img src="/india.png" width={500} height={400} />
+            </div>
+
           </div>
 
-          <aside>
-             
-                <div>
-                   <hr/>
-                  <h1>ताजा खबर</h1>
-                  <Link to={""}>और देखें</Link>
-                   <hr/>
-                </div>
-                <div>
-                   <div>
-                     <h1>भारत</h1>
-                   <p>आज आम चुनाव हों तो NDA जीतेगा 
-                    324 सीटें मगर अपने दम पर बहुमत से पीछे रहेगी BJP: सर्वे</p>
-                     <hr/>
-                   </div>
-                   <div>
-                     <h1>भारत</h1>
-                   <p>आज आम चुनाव हों तो NDA जीतेगा 
-                    324 सीटें मगर अपने दम पर बहुमत से पीछे रहेगी BJP: सर्वे</p>
-                     <hr/>
-                   </div>
-                   <div>
-                     <h1>भारत</h1>
-                   <p>आज आम चुनाव हों तो NDA जीतेगा 
-                    324 सीटें मगर अपने दम पर बहुमत से पीछे रहेगी BJP: सर्वे</p>
-                     <hr/>
-                   </div>
-                   <div>
-                     <h1>भारत</h1>
-                   <p>आज आम चुनाव हों तो NDA जीतेगा 
-                    324 सीटें मगर अपने दम पर बहुमत से पीछे रहेगी BJP: सर्वे</p>
-                     <hr/>
-                   </div>
-                   <div>
-                     <h1>भारत</h1>
-                   <p>आज आम चुनाव हों तो NDA जीतेगा 
-                    324 सीटें मगर अपने दम पर बहुमत से पीछे रहेगी BJP: सर्वे</p>
-                     <hr/>
-                   </div>
-                   <div>
-                     <h1>भारत</h1>
-                   <p>आज आम चुनाव हों तो NDA जीतेगा 
-                    324 सीटें मगर अपने दम पर बहुमत से पीछे रहेगी BJP: सर्वे</p>
-                     <hr/>
-                   </div>
-                   <div>
-                     <h1>भारत</h1>
-                   <p>आज आम चुनाव हों तो NDA जीतेगा 
-                    324 सीटें मगर अपने दम पर बहुमत से पीछे रहेगी BJP: सर्वे</p>
-                     <hr/>
-                   </div>
-                   <div>
-                     <h1>भारत</h1>
-                   <p>आज आम चुनाव हों तो NDA जीतेगा 
-                    324 सीटें मगर अपने दम पर बहुमत से पीछे रहेगी BJP: सर्वे</p>
-                     <hr/>
-                   </div>
-                </div>
-          </aside>
-    </main>
+          <hr className="border-b border-gray-200 w-185 mx-auto mt-5 border-[0.1px]" />
+
+
+          {/* main attachment */}
+          <div>
+            <div className=" flex mt-2 ml-2 gap-5">
+              <div className=" space-y-2">
+                <h1 className="text-red-700">भारत</h1>
+                <p className="">आज आम चुनाव हों तो NDA जीतेगा 324 सीटें मगर अपने दम पर बहुमत से पीछे रहेगी BJP: सर्वे</p>
+              </div>
+
+              <div>
+                <img src="/pic3.png" />
+              </div>
+            </div>
+
+            <hr className="border-b w-185 text-gray-200 my-2 mx-auto" />
+
+            <div className=" flex mt-2 ml-2 gap-5">
+              <div className=" space-y-2">
+                <h1 className="text-red-700">भारत</h1>
+                <p className="">आज आम चुनाव हों तो NDA जीतेगा 324 सीटें मगर अपने दम पर बहुमत से पीछे रहेगी BJP: सर्वे</p>
+              </div>
+
+              <div>
+                <img src="/pic3.png" />
+              </div>
+            </div>
+
+            <hr className="border-b w-185 text-gray-200 my-2 mx-auto" />
+
+            <div className=" flex mt-2 ml-2 gap-5">
+              <div className=" space-y-2">
+                <h1 className="text-red-700">भारत</h1>
+                <p className="">आज आम चुनाव हों तो NDA जीतेगा 324 सीटें मगर अपने दम पर बहुमत से पीछे रहेगी BJP: सर्वे</p>
+              </div>
+
+              <div>
+                <img src="/pic3.png" />
+              </div>
+            </div>
+
+            <hr className="border-b w-185 text-gray-200 my-2 mx-auto" />
+
+            <div className=" flex mt-2 ml-2 gap-5">
+              <div className=" space-y-2">
+                <h1 className="text-red-700">भारत</h1>
+                <p className="">आज आम चुनाव हों तो NDA जीतेगा 324 सीटें मगर अपने दम पर बहुमत से पीछे रहेगी BJP: सर्वे</p>
+              </div>
+
+              <div>
+                <img src="/pic3.png" />
+              </div>
+            </div>
+
+            <hr className="border-b w-185 text-gray-200 my-2 mx-auto" />
+
+
+          </div>
+
+
+
+          <Bottom />
+
+          {/* special */}
+
+          <div>
+
+          </div>
+
+        </div>
+
+
+
+
+        <hr className="border-l border-gray-300 h-190 mt-5" />
+
+        <Aside />
+
+
+      </main>
+
+
+         <Tranding />
+
+
+     
+    </>
+
+
   )
 }
 
