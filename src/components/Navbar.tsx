@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import { CiSearch } from "react-icons/ci";
 import { RxAvatar, RxHamburgerMenu } from "react-icons/rx";
-import { navItems } from "./Links";
+import { navItems } from "../Links/Links";
 import { useEffect, useState } from "react";
 
 
@@ -65,7 +65,7 @@ const Navbar = () => {
                 {/* Big NavBar */}
                     <nav className={`bg-[var(--color-primary)]  shadow-2xl z-50 absolute top-0 left-0 w-full transition-all duration-300
                       ${isScrolled ? "opacity-0 -translate-y-full pointer-events-none" : "opacity-100 translate-y-0"}`}>
-                        <div className=" flex justify-between items-center p-3 lg:p-6 mx-2 lg:mx-8">
+                        <div className=" flex justify-between items-center p-3 lg:p-4 mx-2 lg:mx-8">
                             <div className="">
                                 <CiSearch className="size-5 lg:size-7 stroke-[1] cursor-pointer" />
                             </div>

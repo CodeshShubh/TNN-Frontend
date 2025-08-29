@@ -1,16 +1,16 @@
-import Aside from "./Aside";
-import Bottom from "./Bottom";
+import Bottom from "../components/Bottom";
 import Tranding from "../sections/Tranding";
 import Entertainment from "../sections/Entertainment";
 import Sports from "../sections/Sports";
 import Election from "../sections/Election";
+import AsideHome from "../components/AsideHome";
 
 
 
 const Home = () => {
   return (
     <>
-      <main className="border-trl w-[75%] mx-auto flex gap-5 no-bottom-shadow">
+      <main className="border-trl w-[75%] mx-auto flex gap-5 no-bottom-shadow mt-15">
         {/* left */}
         <div>
           <div className=" flex justify-center text-center gap-2 mt-5">
@@ -98,7 +98,7 @@ const Home = () => {
 
         <hr className="line-verticle h-190 mt-5" />
 
-        <Aside />
+        <AsideHome />
 
 
       </main>

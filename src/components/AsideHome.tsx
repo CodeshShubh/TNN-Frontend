@@ -2,7 +2,7 @@ import { CiCircleChevRight } from "react-icons/ci"
 import { Link } from "react-router-dom"
 
 
-const Aside = () => {
+const AsideHome = () => {
   return (
               <aside className=" w-full mt-5 mr-3">
 
@@ -90,19 +90,9 @@ const Aside = () => {
 
                 <hr className="w-[100%] mx-auto text-gray-200"/>
 
-
-        
-
-
-
-
-
-                   
-
-
                 </div>
           </aside>
   )
 }
 
-export default Aside
+export default AsideHome
