@@ -1,7 +1,7 @@
 import { FaChevronRight } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
-const Tranding = () => {
+const Section4 = () => {
   return (
     <div className="border-lr w-[75%] mx-auto p-1">
       <hr className="mt-5 mb-1 w-[90%] text-gray-300 mx-auto" />
@@ -62,4 +62,4 @@ const Tranding = () => {
   )
 }
 
-export default Tranding
+export default Section4

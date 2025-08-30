@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import { CiSearch } from "react-icons/ci";
 import { RxAvatar, RxHamburgerMenu } from "react-icons/rx";
-import { navItems } from "../Links/Links";
+import { navItems } from "../links/Links";
 import { useEffect, useState } from "react";
 
 

@@ -1,4 +1,4 @@
-const Bottom = () => {
+const HomeBottom = () => {
     return (
         <div className="flex gap-2 justify-center mt-5">
 
@@ -29,4 +29,4 @@ const Bottom = () => {
     )
 }
 
-export default Bottom
+export default HomeBottom

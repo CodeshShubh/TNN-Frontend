@@ -2,7 +2,7 @@ import { FaChevronRight } from "react-icons/fa6"
 import { Link } from "react-router-dom"
 
 
-const Entertainment = () => {
+const Section2 = () => {
     return (
         <div className="border-lr w-[75%] mx-auto p-1 font-light font-xs leading-6">
 
@@ -50,4 +50,4 @@ const Entertainment = () => {
     )
 }
 
-export default Entertainment
+export default Section2

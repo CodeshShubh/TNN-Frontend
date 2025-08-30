@@ -1,7 +1,7 @@
 import { FaChevronRight } from "react-icons/fa6"
 import { Link } from "react-router-dom"
 
-const Election = () => {
+const Section1 = () => {
     return (
         <div className="border-lr w-[75%] mx-auto p-1 font-light font-xs leading-6">
 
@@ -59,4 +59,4 @@ const Election = () => {
     )
 }
 
-export default Election
+export default Section1

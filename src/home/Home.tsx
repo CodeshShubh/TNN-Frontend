@@ -1,9 +1,9 @@
-import Bottom from "../components/Bottom";
-import Tranding from "../sections/Tranding";
-import Entertainment from "../sections/Entertainment";
-import Sports from "../sections/Sports";
-import Election from "../sections/Election";
-import AsideHome from "../components/AsideHome";
+import HomeBottom from "./sections/HomeBottom";
+import AsideHome from "./sections/AsideHome";
+import Section1 from "./sections/Section1";
+import Section2 from "./sections/Section2";
+import Section3 from "./sections/Section3";
+import Section4 from "./sections/Section4";
 
 
 
@@ -86,31 +86,29 @@ const Home = () => {
 
             <hr className="border-b w-185 text-gray-200 my-2 mx-auto" />
 
-
           </div>
-
-          <Bottom />
-
+          <HomeBottom />
         </div>
-
-
-
 
         <hr className="line-verticle h-190 mt-5" />
 
         <AsideHome />
-
-
       </main>
 
 
-         <Tranding />
-         <Entertainment/>
-         <Sports/>
-         <Election/>
-          <Election/>
-          <Sports/>
-         <Entertainment/>
+         <Section4 /> {/*  // Tranding */}
+
+         <Section2/>
+
+         <Section3/>
+
+         <Section1/>
+
+          <Section1/>
+
+          <Section3/>
+
+          <Section2/>
 
 
 
