@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 const Section4 = () => {
   return (
-    <div className="border-lr w-[75%] mx-auto p-1">
-      <hr className="mt-5 mb-1 w-[90%] text-gray-300 mx-auto" />
-      <hr className=" mb-1 w-[90%] text-gray-300 mx-auto" />
+    <div className="border-lr w-full lg:w-[75%] mx-auto p-1">
+      <hr className="mt-5 mb-1 w-full lg:w-[90%] text-gray-300 mx-auto" />
+      <hr className=" mb-1 w-full lg:w-[90%] text-gray-300 mx-auto" />
 
 
       <div>
@@ -15,7 +15,7 @@ const Section4 = () => {
         </div>
 
 
-        <div className="m-5 flex gap-4">
+        <div className="m-5 flex gap-1 lg:gap-4 font-extralight lg:font-light">
 
 
           <div className="w-60 text-center flex flex-col justify-center items-center">
@@ -26,7 +26,7 @@ const Section4 = () => {
               अपने दम पर बहुमत से पीछे रहेगी BJP: सर्वे</p>
           </div>
 
-                    <div className="w-60 text-center flex flex-col justify-center items-center">
+          <div className="w-60 text-center flex flex-col justify-center items-center">
             <div>
               <img src="/pic1.png" />
             </div>
@@ -34,7 +34,7 @@ const Section4 = () => {
               अपने दम पर बहुमत से पीछे रहेगी BJP: सर्वे</p>
           </div>
 
-                    <div className="w-60 text-center flex flex-col justify-center items-center">
+          <div className="w-60 text-center flex flex-col justify-center items-center">
             <div>
               <img src="/pic1.png" />
             </div>
@@ -42,7 +42,7 @@ const Section4 = () => {
               अपने दम पर बहुमत से पीछे रहेगी BJP: सर्वे</p>
           </div>
 
-                    <div className="w-60 text-center flex flex-col justify-center items-center">
+          <div className="w-60 text-center flex flex-col justify-center items-center">
             <div>
               <img src="/pic1.png" />
             </div>
@@ -50,8 +50,7 @@ const Section4 = () => {
               अपने दम पर बहुमत से पीछे रहेगी BJP: सर्वे</p>
           </div>
 
-  
- 
+
 
         </div>
 

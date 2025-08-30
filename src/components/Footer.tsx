@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 const Footer = () => {
     return (
-        <footer className="mt-2 bg-[var(--color-primary)] p-1">
+        <footer className="hidden lg:block mt-2 bg-[var(--color-primary)] p-1 ">
             <div className="w-[80%] mx-auto mt-5">
                 <div className="flex justify-around">
                     <div className="">

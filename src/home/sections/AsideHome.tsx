@@ -4,20 +4,23 @@ import { Link } from "react-router-dom"
 
 const AsideHome = () => {
   return (
-              <aside className=" w-full mt-5 mr-3">
+              <aside className=" w-full mt-0 mr-3">
+                   <hr className="line "/>
 
-                <div className=" flex justify-start">
-                   <hr/>
-                  <h1 className=" w-40  font-semibold text-2xl mr-11">ताजा खबर</h1>
+                <div className=" flex justify-between lg:justify-start px-2 lg:p-0">
+                  <h1 className=" w-40  font-semibold text-2xl mr-0 lg:mr-11">ताजा खबर</h1>
                   <Link to={""} className="flex justify-center items-center  font-medium">
                   <span className="mr-1">और देखें</span>
                    <CiCircleChevRight className="size-4 stroke-[0.6] "/>
 
                   </Link>
-                   <hr/>
+                   
                 </div>
-                <div>
 
+                <hr className="line"/>
+
+
+                <div>
                    <div className="mt-5 p-1 ">
                      <h1 className="text-red-700">भारत</h1>
                    <p className="font-light text-sm">आज आम चुनाव हों तो NDA जीतेगा 

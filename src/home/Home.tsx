@@ -10,10 +10,10 @@ import Section4 from "./sections/Section4";
 const Home = () => {
   return (
     <>
-      <main className="border-trl w-[75%] mx-auto flex gap-5 no-bottom-shadow mt-15">
+      <main className="border-trl w-[100%] lg:w-[75%] mx-auto lg:flex gap-5 no-bottom-shadow lg:mt-15">
         {/* left */}
         <div>
-          <div className=" flex justify-center text-center gap-2 mt-5">
+          <div className=" hidden lg:flex justify-center text-center gap-2 mt-1 lg:mt-5">
             <div className=" flex flex-col gap-5 p-2  w-[30%] mt-3 h-fit">
               <h1 className="font-semibold text-2xl">भारत</h1>
               <h2 className="font-medium" >आज आम चुनाव हों तो NDA जीतेगा 324 सीटें मगर अपने दम पर बहुमत से पीछे रहेगी BJP: सर्वे</h2>
@@ -23,18 +23,18 @@ const Home = () => {
               <span>10 hours ago</span>
 
             </div>
-            <div className=" h-fit">
+            <div className=" ">
               <img src="/india.png" width={500} height={400} />
             </div>
 
           </div>
 
-          <hr className="border-b border-gray-200 w-185 mx-auto mt-5 border-[0.1px]" />
+          <hr className=" border-b border-gray-200 lg:w-185 mx-auto mt-5 border-[0.1px]" />
 
 
           {/* main attachment */}
-          <div>
-            <div className=" flex mt-2 ml-2 gap-5">
+          <div className="mt-18 lg:mt-0  p-2 lg:p-0">
+            <div className=" flex items-center lg:items-start mt-1 ml-2 gap-5">
               <div className=" space-y-2">
                 <h1 className="text-red-700">भारत</h1>
                 <p className="">आज आम चुनाव हों तो NDA जीतेगा 324 सीटें मगर अपने दम पर बहुमत से पीछे रहेगी BJP: सर्वे</p>
@@ -45,9 +45,9 @@ const Home = () => {
               </div>
             </div>
 
-            <hr className="border-b w-185 text-gray-200 my-2 mx-auto" />
+            <hr className="border-b lg:w-185 text-gray-200 my-2 mx-auto" />
 
-            <div className=" flex mt-2 ml-2 gap-5">
+            <div className=" flex items-center lg:items-start mt-1 ml-2 gap-5">
               <div className=" space-y-2">
                 <h1 className="text-red-700">भारत</h1>
                 <p className="">आज आम चुनाव हों तो NDA जीतेगा 324 सीटें मगर अपने दम पर बहुमत से पीछे रहेगी BJP: सर्वे</p>
@@ -58,9 +58,9 @@ const Home = () => {
               </div>
             </div>
 
-            <hr className="border-b w-185 text-gray-200 my-2 mx-auto" />
+            <hr className="border-b lg:w-185 text-gray-200 my-2 mx-auto" />
 
-            <div className=" flex mt-2 ml-2 gap-5">
+            <div className=" flex items-center lg:items-start mt-1 ml-2 gap-5">
               <div className=" space-y-2">
                 <h1 className="text-red-700">भारत</h1>
                 <p className="">आज आम चुनाव हों तो NDA जीतेगा 324 सीटें मगर अपने दम पर बहुमत से पीछे रहेगी BJP: सर्वे</p>
@@ -71,9 +71,9 @@ const Home = () => {
               </div>
             </div>
 
-            <hr className="border-b w-185 text-gray-200 my-2 mx-auto" />
+            <hr className="border-b lg:w-185 text-gray-200 my-2 mx-auto" />
 
-            <div className=" flex mt-2 ml-2 gap-5">
+            <div className=" flex items-center lg:items-start mt-1 ml-2 gap-5">
               <div className=" space-y-2">
                 <h1 className="text-red-700">भारत</h1>
                 <p className="">आज आम चुनाव हों तो NDA जीतेगा 324 सीटें मगर अपने दम पर बहुमत से पीछे रहेगी BJP: सर्वे</p>
@@ -84,13 +84,13 @@ const Home = () => {
               </div>
             </div>
 
-            <hr className="border-b w-185 text-gray-200 my-2 mx-auto" />
+            <hr className="border-b lg:w-185 text-gray-200 my-2 mx-auto" />
 
           </div>
           <HomeBottom />
         </div>
 
-        <hr className="line-verticle h-190 mt-5" />
+        <hr className="line-verticle lg:h-245 mt-5" />
 
         <AsideHome />
       </main>
@@ -98,13 +98,13 @@ const Home = () => {
 
          <Section4 /> {/*  // Tranding */}
 
-         <Section2/>
+        <Section2/> {/*  // Entertainment */}
 
          <Section3/>
 
-         <Section1/>
+        <Section1/>
 
-          <Section1/>
+            <Section1/>
 
           <Section3/>
 

@@ -1,6 +1,6 @@
 const HomeBottom = () => {
     return (
-        <div className="flex gap-2 justify-center mt-5">
+        <div className="flex gap-2 justify-center mt-0 lg:mt-5 text-center lg:text-start">
 
             <div className=" w-55 p-1 flex flex-col gap-3">
                 <img src="/pic1.png" />

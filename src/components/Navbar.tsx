@@ -31,7 +31,7 @@ const Navbar = () => {
 
         <>
         {/* small navbar */}
-           <nav className={`bg-[var(--color-primary)] shadow-2xl z-50 p-5 sticky top-0 left-0 w-full transition-all duration-300
+           <nav className={`hidden lg:block bg-[var(--color-primary)] shadow-2xl z-50 p-5 sticky top-0 left-0 w-full transition-all duration-300
                  ${isScrolled ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-full pointer-events-none"}`}>
 
                     <div className="flex gap-40 items-center px-10">
@@ -42,7 +42,7 @@ const Navbar = () => {
                         </Link>
                         </div>
 
-                        <div className="flex gap-6">
+                        <div className=" flex gap-6">
                             {
                             navItems.links.map((itm, i) => {
                                 return (
@@ -63,7 +63,7 @@ const Navbar = () => {
                 </nav> 
 
                 {/* Big NavBar */}
-                    <nav className={`bg-[var(--color-primary)]  shadow-2xl z-50 absolute top-0 left-0 w-full transition-all duration-300
+                    <nav className={` bg-[var(--color-primary)]  shadow-2xl z-50 absolute top-0 left-0 w-full transition-all duration-300
                       ${isScrolled ? "opacity-0 -translate-y-full pointer-events-none" : "opacity-100 translate-y-0"}`}>
                         <div className=" flex justify-between items-center p-3 lg:p-4 mx-2 lg:mx-8">
                             <div className="">
