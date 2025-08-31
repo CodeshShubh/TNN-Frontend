@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const AsidePages = () => {
   return (
-     <aside className=" w-full mt-5 mr-3">
+     <aside className=" hidden lg:block w-full mt-5 mr-3">
 
                 <div className=" flex ">
                    <hr/>
@@ -87,7 +87,7 @@ const AsidePages = () => {
                     
                    </div>
 
-                <hr className="w-[100%] mx-auto text-gray-200"/>
+                {/* <hr className="w-[100%] mx-auto text-gray-200"/> */}
 
                 </div>
           </aside>
