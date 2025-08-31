@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Section4 = () => {
   return (
-    <div className="border-lr w-full lg:w-[75%] mx-auto p-1">
+    <div className="border-lr w-full lg:w-[80%] mx-auto p-1">
       <hr className="mt-5 mb-1 w-full lg:w-[90%] text-gray-300 mx-auto" />
       <hr className=" mb-1 w-full lg:w-[90%] text-gray-300 mx-auto" />
 

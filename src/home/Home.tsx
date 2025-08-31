@@ -11,9 +11,9 @@ import HomePhone from "./sections/HomePhone";
 const Home = () => {
   return (
     <>
-      <main className="border-trl w-[100%] lg:w-[75%] mx-auto lg:flex gap-5 no-bottom-shadow  lg:mt-15">
+      <main className="border-trl w-[100%] lg:w-[80%] mx-auto lg:flex gap-5 no-bottom-shadow  lg:mt-15 relative">
         {/* left */}
-        <div>
+        <div className="flex-1 overflow-y-auto ">
           <div className=" hidden lg:flex justify-center text-center gap-2 mt-1 lg:mt-5">
             <div className=" flex flex-col gap-5 p-2  w-[30%] mt-3 h-fit">
               <h1 className="font-semibold text-2xl">भारत</h1>
@@ -96,9 +96,10 @@ const Home = () => {
           <HomeBottom />
         </div>
 
-        <hr className="line-verticle lg:h-245 mt-5" />
+        <hr className="line-verticle lg:h-315 mt-5" />
 
-        <AsideHome />
+             <AsideHome />
+
       </main>
 
 
