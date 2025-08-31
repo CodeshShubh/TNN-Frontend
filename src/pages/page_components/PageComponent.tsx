@@ -19,7 +19,6 @@ const PageComponent = () => {
                             </p>
                             <p className="font-light text-sm">Post by Name | 16 Mins Ago </p>
                         </div>
-
                     </div>
                     <hr className="line"/>
                     <div className="flex gap-3 ">

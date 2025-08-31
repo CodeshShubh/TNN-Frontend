@@ -5,12 +5,12 @@ export const navItems: NavItems = {
     links: [
         { name: 'होम', href: '/' },
         { name: 'भारत', href: '/india' },
-        { name: 'चुनाव', href: '/elelction' },
+        { name: 'चुनाव', href: '/election' },
         { name: 'मनोरंजन', href: '/entertainment' },
         { name: 'लाइफस्टाइल', href: '/lifestyle' },
         { name: 'खेल', href: '/sports' },
         { name: 'लाइव', href: '/live' },
         {name:"इंटरव्यू", href:"/interview"},
-        {name:"शॉपिंग", href:"/shoping"}
+        {name:"शॉपिंग", href:"/shopping"}
     ]
 }
