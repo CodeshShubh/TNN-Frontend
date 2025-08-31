@@ -10,11 +10,11 @@ const Article = () => {
              <h1 className="p-3 font-bold text-2xl">भारत और चीन मिलकर कर सकते हैं ये काम', जापान में पीएम 
                 मोदी के संदेश से ट्रंप को लगेगी मिर्ची</h1>
              <hr className="line"/>
-             <div className="p-3 font-light text-sm">
+             <div className="pl-3 pb-3 font-light text-sm">
                 <h1>Edited By: Abhishek Pratap Singh</h1>
                 <p>Updated: Fri, 29 Aug 2025 06:38 PM (IST)</p>
              </div>
-             <div className="p-3 border text-center bg-amber-50">
+             <div className="p-3 border text-center bg-gray-200">
                 <h2>प्रधानमंत्री नरेंद्र मोदी ने जापान में कहा कि चीन के साथ मजबूत संबंध 
                     क्षेत्रीय शांति समृद्धि और वैश्विक अर्थव्यवस्था में स्थिरता के लिए महत्वपूर्ण हैं। 
                     उन्होंने राष्ट्रपति शी चिनफिंग के निमंत्रण पर एससीओ शिखर सम्मेलन में भाग 

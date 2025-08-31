@@ -10,6 +10,7 @@ import Sports from './pages/Sports'
 import Live from './pages/Live'
 import Interview from './pages/Interview'
 import Shopping from './pages/Shopping'
+import Article from './articles/Article'
 
 const App = () => {
 
@@ -28,6 +29,7 @@ const App = () => {
          <Route path="/live" element={<Live/>}/>
          <Route path="/interview" element={<Interview/>}/>
          <Route path="/shopping" element={<Shopping/>}/>
+         <Route path="/article" element={<Article/>}/>
 
       </Routes>
       <Footer/>

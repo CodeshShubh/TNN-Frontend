@@ -4,13 +4,14 @@ import Section1 from "./sections/Section1";
 import Section2 from "./sections/Section2";
 import Section3 from "./sections/Section3";
 import Section4 from "./sections/Section4";
+import HomePhone from "./sections/HomePhone";
 
 
 
 const Home = () => {
   return (
     <>
-      <main className="border-trl w-[100%] lg:w-[75%] mx-auto lg:flex gap-5 no-bottom-shadow lg:mt-15">
+      <main className="border-trl w-[100%] lg:w-[75%] mx-auto lg:flex gap-5 no-bottom-shadow  lg:mt-15">
         {/* left */}
         <div>
           <div className=" hidden lg:flex justify-center text-center gap-2 mt-1 lg:mt-5">
@@ -29,11 +30,16 @@ const Home = () => {
 
           </div>
 
+          <div className="block lg:hidden">
+             <HomePhone/>
+          </div>
+
+
           <hr className=" border-b border-gray-200 lg:w-185 mx-auto mt-5 border-[0.1px]" />
 
 
           {/* main attachment */}
-          <div className="mt-18 lg:mt-0  p-2 lg:p-0">
+          <div className=" lg:mt-18 mt-0  p-2 lg:p-0">
             <div className=" flex items-center lg:items-start mt-1 ml-2 gap-5">
               <div className=" space-y-2">
                 <h1 className="text-red-700">भारत</h1>
