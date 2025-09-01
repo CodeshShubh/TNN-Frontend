@@ -1,9 +1,96 @@
 
 
 const DashboardMain = () => {
-  return (
-    <div>DashboardMain</div>
-  )
+    return (
+        <section className="">
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+            <h1>DashboardMain</h1>
+        </section>
+    )
 }
 
 export default DashboardMain

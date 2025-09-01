@@ -59,4 +59,10 @@ body{
    .btn:hover{
     @apply bg-black/80  duration-500 ease-in-out
    }
+   .btn_dashboard{
+    @apply flex justify-center items-center gap-2 mx-auto p-1 bg-black w-full text-white font-light text-sm rounded cursor-pointer
+   }
+   .btn_dashboard:hover{
+     @apply bg-black/80  duration-500 ease-in-out
+   }
 }
