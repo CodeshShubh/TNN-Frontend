@@ -1,7 +1,5 @@
-import {BrowserRouter ,Route ,Routes} from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './home/Home'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
 import India from './pages/India'
 import Election from './pages/Election'
 import Entertainment from './pages/Entertainment'
@@ -11,28 +9,39 @@ import Live from './pages/Live'
 import Interview from './pages/Interview'
 import Shopping from './pages/Shopping'
 import Article from './articles/Article'
+import Dashboard from './dashboard/Dashboard'
+import MainLayout from './MainLayout'
+import DashboardLayout from './DashboardLayout'
 
 const App = () => {
 
-   
+
   return (
     <div>
       <BrowserRouter>
-        <Navbar/>
-      <Routes>
-         <Route path="/" element={<Home/>}/>
-         <Route path="/india" element={<India/>}/>
-         <Route path="/election" element={<Election/>}/>
-         <Route path="/entertainment" element={<Entertainment/>}/>
-         <Route path="/lifestyle" element={<LifeStyle/>}/>
-         <Route path="/sports" element={<Sports/>}/>
-         <Route path="/live" element={<Live/>}/>
-         <Route path="/interview" element={<Interview/>}/>
-         <Route path="/shopping" element={<Shopping/>}/>
-         <Route path="/article" element={<Article/>}/>
+        <Routes>
+           {/* MainLayout */}
+          <Route element={<MainLayout />}>
+            <Route path="/" element={<Home />} />
+            <Route path="/india" element={<India />} />
+            <Route path="/election" element={<Election />} />
+            <Route path="/entertainment" element={<Entertainment />} />
+            <Route path="/lifestyle" element={<LifeStyle />} />
+            <Route path="/sports" element={<Sports />} />
+            <Route path="/live" element={<Live />} />
+            <Route path="/interview" element={<Interview />} />
+            <Route path="/shopping" element={<Shopping />} />
+            <Route path="/article" element={<Article />} />
+            <Route path="/dashboard" element={<Dashboard />} />
+          </Route>
 
-      </Routes>
-      <Footer/>
+
+          {/* Dashboard Layout */}
+          <Route path='/dashboard' element={<DashboardLayout />}>
+            <Route index element={<Dashboard />} />
+          </Route>
+
+        </Routes>
       </BrowserRouter>
     </div>
   )
