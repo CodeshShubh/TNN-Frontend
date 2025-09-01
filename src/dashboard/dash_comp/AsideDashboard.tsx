@@ -8,8 +8,10 @@ import { RxAvatar } from "react-icons/rx";
 import { Link } from "react-router-dom";
 
 const AsideDashboard = () => {
+    
+       
   return (
-    <section className="bg-gray-200 p-1 h-full flex flex-col ">
+    <section className="bg-gray-200 p-1 h-full flex flex-col shadow-xl ">
 
       {/* header */}
       <div className="p-1 m-2 flex justify-start gap-3 items-center ">

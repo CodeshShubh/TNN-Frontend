@@ -11,7 +11,7 @@ const Dashboard = () => {
             </div>
 
             {/* main */}
-            <div className="border w-[82%] overflow-y-auto">
+            <div className=" w-[82%] overflow-y-auto">
                 <DashboardMain />
             </div>
 
