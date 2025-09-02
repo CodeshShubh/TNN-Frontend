@@ -9,9 +9,10 @@ import Live from './pages/Live'
 import Interview from './pages/Interview'
 import Shopping from './pages/Shopping'
 import Article from './articles/Article'
-import Dashboard from './dashboard/Dashboard'
 import MainLayout from './MainLayout'
 import DashboardLayout from './DashboardLayout'
+import Admin_management from './dashboard/admin_management/Admin_management'
+import Dashboard from './dashboard/Dashboard'
 
 const App = () => {
 
@@ -32,13 +33,13 @@ const App = () => {
             <Route path="/interview" element={<Interview />} />
             <Route path="/shopping" element={<Shopping />} />
             <Route path="/article" element={<Article />} />
-            <Route path="/dashboard" element={<Dashboard />} />
           </Route>
 
 
           {/* Dashboard Layout */}
           <Route path='/dashboard' element={<DashboardLayout />}>
             <Route index element={<Dashboard />} />
+            <Route path='admin_management' element={<Admin_management/>}/>
           </Route>
 
         </Routes>

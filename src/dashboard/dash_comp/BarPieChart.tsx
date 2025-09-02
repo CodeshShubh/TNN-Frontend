@@ -41,7 +41,7 @@ const barData = {
     },
     {
       label: "Views Count",
-      data: [110, 30, 70, 36, 65, 85, 15, 87, 40, 10, 60, 100],
+      data: [110, 30, 70, 36, 65, 85, 15, 87, 40, 10, 60, 100].slice(0,labels.length),
       backgroundColor: [
         "rgba(255, 105, 180, 0.6)"
       ],
@@ -87,7 +87,7 @@ const pieData = {
 }
 
 
-const CardDashbord2 = () => {
+const BarPieChart = () => {
   return (
     <div className=" flex w-full justify-around mt-5">
       {/* barChart */}
@@ -117,4 +117,4 @@ const CardDashbord2 = () => {
   )
 }
 
-export default CardDashbord2
+export default BarPieChart

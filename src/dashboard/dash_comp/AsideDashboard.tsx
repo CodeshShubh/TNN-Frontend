@@ -34,10 +34,10 @@ const AsideDashboard = () => {
         <div className="flex flex-col gap-4 [&>*]:flex [&>*]:items-center [&>*]:gap-2  mt-5
          [&>*]:font-medium text-sm">
           <Link to={""}><AiOutlineHome className="size-6" />Dashboard</Link>
-          <Link to={""}><IoIosPeople className="size-6"  />Admin Management</Link>
-          <Link to={""}><FaFileLines className="size-6" />Articles</Link>
-          <Link to={""}><CiCirclePlus className="size-6" />Write Article</Link>
-          <Link to={""}><HiTrendingUp className="size-6" />Trending</Link>
+          <Link to={"admin_management"}><IoIosPeople className="size-6"  />Admin Management</Link>
+          <Link to={"articles"}><FaFileLines className="size-6" />Articles</Link>
+          <Link to={"write_articles"}><CiCirclePlus className="size-6" />Write Article</Link>
+          <Link to={"tranding"}><HiTrendingUp className="size-6" />Trending</Link>
         </div>
       </div>
 
