@@ -35,7 +35,7 @@ const AsideDashboard = () => {
          [&>*]:font-medium text-sm">
           <Link to={""}><AiOutlineHome className="size-6" />Dashboard</Link>
           <Link to={"admin_management"}><IoIosPeople className="size-6"  />Admin Management</Link>
-          <Link to={"articles"}><FaFileLines className="size-6" />Articles</Link>
+          <Link to={"admin_articles"}><FaFileLines className="size-6" />Articles</Link>
           <Link to={"write_articles"}><CiCirclePlus className="size-6" />Write Article</Link>
           <Link to={"tranding"}><HiTrendingUp className="size-6" />Trending</Link>
         </div>

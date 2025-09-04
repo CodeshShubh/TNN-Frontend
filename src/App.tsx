@@ -11,8 +11,9 @@ import Shopping from './pages/Shopping'
 import Article from './articles/Article'
 import MainLayout from './MainLayout'
 import DashboardLayout from './DashboardLayout'
-import Admin_management from './dashboard/admin_management/Admin_management'
 import Dashboard from './dashboard/Dashboard'
+import AdminArticles from './dashboard/admin_articles/AdminArticles'
+import AdminManagement from './dashboard/admin_management/AdminManagement'
 
 const App = () => {
 
@@ -39,7 +40,8 @@ const App = () => {
           {/* Dashboard Layout */}
           <Route path='/dashboard' element={<DashboardLayout />}>
             <Route index element={<Dashboard />} />
-            <Route path='admin_management' element={<Admin_management/>}/>
+            <Route path='admin_management' element={<AdminManagement/>}/>
+            <Route path='admin_articles' element={<AdminArticles/>}/>
           </Route>
 
         </Routes>

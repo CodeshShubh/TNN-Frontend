@@ -11,7 +11,7 @@ const DashboardLayout = () => {
       </aside>
 
       {/* main */}
-      <main className=" w-[82%] overflow-y-auto">
+      <main className=" w-[82%] overflow-y-auto bg-white">
         <Outlet />
       </main>
 
