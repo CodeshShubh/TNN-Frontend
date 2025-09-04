@@ -12,7 +12,7 @@ import { RiDeleteBin6Line } from "react-icons/ri";
 
 const AdminArticles = () => {
   return (
-    <div className="border  w-full p-1 h-screen">
+    <div className="  w-full p-1 h-screen">
       <div className="p-4 ">
         <div className="  flex justify-between">
           <div>
@@ -20,7 +20,7 @@ const AdminArticles = () => {
             <p className="text-xs text-gray-500">Manage all articles and their publication status</p>
           </div>
           <div>
-            <button className="flex justify-center items-center gap-1 px-2 btn  text-sm "><IoMdAdd className="size-6" />New Article</button>
+            <button className="flex justify-center items-center gap-1 px-2 btn  text-sm "><IoMdAdd className="size-4 text-white" />New Article</button>
           </div>
         </div>
 
